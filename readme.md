@@ -18,9 +18,9 @@
   		  constraints : summation(Ti) <= X
   		  				count <= K
 
-  		  modelling the states as :
+  		 - modelling the states as :
 
-  		  		dp(level,time_taken,item_taken) -  Max skill we can get in [level .... n-1] with already 									time_taken and item_taken with limit being X and K 									       correspondingly
+  		  		dp(level,time_taken,item_taken) -  Max skill we can get in [level .... n-1] with already 									time_taken and item_taken with limit being X and K 	correspondingly								       							
 
   	- Decide the transition 
   						  	 - -  - 		
